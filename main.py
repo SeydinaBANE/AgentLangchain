@@ -1,7 +1,3 @@
-"""
-Point d'entrée principal — boucle interactive de l'agent ReAct.
-"""
-
 from dotenv import load_dotenv
 load_dotenv()
 

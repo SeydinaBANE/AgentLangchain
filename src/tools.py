@@ -1,7 +1,3 @@
-"""
-Outils disponibles pour l'agent ReAct.
-"""
-
 import math
 from typing import Dict, Any
 

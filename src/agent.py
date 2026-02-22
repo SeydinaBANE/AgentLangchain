@@ -1,7 +1,3 @@
-"""
-Construction du LLM Groq et de l'agent ReAct LangGraph.
-"""
-
 from langchain_groq import ChatGroq
 from langgraph.prebuilt import create_react_agent
 

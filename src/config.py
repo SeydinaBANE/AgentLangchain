@@ -1,7 +1,3 @@
-"""
-Configuration globale : logging et handler Langfuse.
-"""
-
 import logging
 from langfuse.langchain import CallbackHandler
 
