@@ -39,7 +39,7 @@ langgraph-agent/
 
 ```bash
 git clone https://github.com/<votre-username>/langgraph-agent.git
-cd langgraph-agent
+cd AgentLangchain`
 ```
 
 ### 2. Créer un environnement virtuel
