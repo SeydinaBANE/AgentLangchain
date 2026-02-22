@@ -6,7 +6,7 @@ from src.config import logger
 
 
 def build_llm() -> ChatGroq:
-    """Instancie et retourne le modèle Groq."""
+    """Instancier et retourne le modèle Groq."""
     logger.info("Initialisation du modèle LLM (Groq)...")
     return ChatGroq(
         model="openai/gpt-oss-120b",
