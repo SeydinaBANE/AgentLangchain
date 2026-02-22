@@ -1,4 +1,4 @@
-# 🤖 Agent ReAct — LangGraph + Groq + Tavily + Langfuse
+# 🤖 Agent ReAct - LangGraph + Groq + Tavily + Langfuse
 
 Agent conversationnel en mode interactif, construit avec **LangGraph**, propulsé par **Groq**, équipé d'une recherche web via **Tavily**, et tracé avec **Langfuse**.
 
