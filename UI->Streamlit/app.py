@@ -1,7 +1,3 @@
-"""
-Interface Streamlit pour l'agent ReAct.
-Fonctionnalités : historique, choix du modèle, étapes de l'agent, coûts/tokens.
-"""
 
 import streamlit as st
 from dotenv import load_dotenv
