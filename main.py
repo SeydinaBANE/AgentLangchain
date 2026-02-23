@@ -31,16 +31,11 @@ def ask_agent(agent, question: str, langfuse_handler: CallbackHandler) -> str:
         return answer
     except Exception as e:
         logger.error("Erreur lors de l'invocation de l'agent : %s", e)
-        return f"❌ Une erreur s'est produite : {e}"
+        return f"Une erreur s'est produite : {e}"
 
 
 def run_interactive(agent, langfuse_handler: CallbackHandler) -> None:
     """Lance une boucle interactive permettant à l'utilisateur de poser des questions."""
-    print("\n" + "=" * 60)
-    print("  🤖  Agent ReAct — Mode interactif")
-    print("  Tapez 'quitter' ou 'exit' pour arrêter.")
-    print("=" * 60 + "\n")
-
     while True:
         try:
             question = input("Vous : ").strip()
